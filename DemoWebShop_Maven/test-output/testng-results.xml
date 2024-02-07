@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Digital download page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[1 product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[2 product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[3 product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Products are successfully added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Shopping cart page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[All the products are removed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-07T15:15:54 IST" name="Suite" finished-at="2024-02-07T15:16:11 IST" duration-ms="17513">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T15:15:54 IST" name="Test" finished-at="2024-02-07T15:16:11 IST" duration-ms="17513">
+      <class name="org.automation.testScripts.AddToCartTestCase">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:org.automation.testScripts.AddToCartTestCase@67d48005]" started-at="2024-02-07T15:15:54 IST" name="launchBrowser" finished-at="2024-02-07T15:16:00 IST" duration-ms="6138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.testScripts.AddToCartTestCase@67d48005]" started-at="2024-02-07T15:16:00 IST" name="performLogin" finished-at="2024-02-07T15:16:02 IST" duration-ms="2418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="addToCartTestCase()[pri:0, instance:org.automation.testScripts.AddToCartTestCase@67d48005]" started-at="2024-02-07T15:16:02 IST" name="addToCartTestCase" finished-at="2024-02-07T15:16:10 IST" duration-ms="7364" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Digital download page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[1 product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[2 product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[3 product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Products are successfully added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Shopping cart page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[All the products are removed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartTestCase -->
+        <test-method is-config="true" signature="performLogout()[pri:0, instance:org.automation.testScripts.AddToCartTestCase@67d48005]" started-at="2024-02-07T15:16:10 IST" name="performLogout" finished-at="2024-02-07T15:16:11 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.testScripts.AddToCartTestCase@67d48005]" started-at="2024-02-07T15:16:11 IST" name="closeBrowser" finished-at="2024-02-07T15:16:11 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.automation.testScripts.AddToCartTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
